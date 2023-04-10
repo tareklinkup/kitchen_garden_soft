@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+    .clock_li{
+        display: none !important;
+    }
+
+    .navbar:not(.navbar-collapse) .ace-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

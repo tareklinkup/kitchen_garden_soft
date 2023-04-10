@@ -1,0 +1,1 @@
+<input type="hidden" value="<?php echo $Pname; ?>" id="unit_name" class="txt" />

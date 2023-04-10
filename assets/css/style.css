@@ -1,0 +1,178 @@
+body {
+    background-color: #E4E6E9;
+    padding-bottom: 0;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #393939;
+    /* line-height: 0; */
+}
+
+input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], textarea {
+    border-radius: 4px !important;
+    color: #858585;
+    background-color: #FFF;
+    border: 1px solid #D5D5D5;
+    padding: 3px 5px 4px;
+    font-size: 14px;
+    font-family: inherit;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    -webkit-transition-duration: .1s;
+    transition-duration: .1s;
+}
+
+input[type=radio].ace+.lbl::before {
+    border-radius: 100%;
+    font-size: 8px;
+    font-family: FontAwesome;
+    text-shadow: 0 0 1px #32A3CE;
+    line-height: 11px;
+    height: 13px;
+    min-width: 13px;
+}
+
+.form-actions {
+    display: block;
+    background-color: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    padding: 19px 20px 20px;
+}
+textarea {
+    height: 50px;
+	line-height:14px;
+	font-size: 15px;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-group-addon, .input-group-btn {
+    width: 0%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.dataTables_wrapper .row:first-child {
+     padding-top: 6px; 
+     padding-bottom: 5px; 
+    background-color: #EFF3F8;
+}
+.dataTables_wrapper .row:last-child {
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    background-color: #EFF3F8;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+	text-align:center;
+}
+
+.form-control {
+    width: 100%;
+    height: 25px;
+	margin-bottom:4px;
+}
+.form-group {
+    margin-bottom: 0px;
+}
+
+.chosen-container>.chosen-single, [class*=chosen-container]>.chosen-single {
+	border-radius: 4px;
+    line-height: 23px;
+    height: 26px;
+    box-shadow: none;
+    background: #FAFAFA;
+    margin-bottom: 4px;
+}
+.chosen-container-single .chosen-search {
+    position: relative;
+    z-index: 1010;
+    margin: 0;
+    padding: 0px 4px;
+    white-space: nowrap;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    border-width: 4px;
+    font-size: 13px;
+    padding: 6px 30px;
+    line-height: 1.38;
+}
+
+.table-header {
+    background-color: #307ECC;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 26px;
+    padding-left: 12px;
+    margin-bottom: 1px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 3px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+.doctor-info-bangla{
+	height:100px;
+	background:#ccc;
+}
+
+.doctor-info-english{
+	height:100px;
+	background:#000;
+}
+
+@media (min-width: 768px){
+.form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 0px;
+}
+}
+
+.chosen-container-single .chosen-search:after {
+    content: "\f002";
+    display: inline-block;
+    color: #888;
+    font-family: FontAwesome;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    right: 12px;
+}
+
+ .page-content {
+    background-color: #FFF;
+    position: relative;
+    margin: 0;
+	padding: 5px 20px 24px;
+} 
+
+.wysiwyg-button[data-v-58087df1] {
+    height: 28px;
+    min-width: 30px;
+    background-color: white !important;
+    border-color: white;
+    outline-color: white;
+    text-align: center;
+    padding: 2px;
+  }
+  
+  .float-right{
+    float: right;
+  }

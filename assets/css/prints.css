@@ -1,0 +1,75 @@
+* {
+  font-size: 13px;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.border {
+    border-collapse: collapse;
+}
+.border th {
+    border: 1px solid #515050;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px;
+    color: #000;
+    font-family: tahoma;
+}
+.border td {
+    border: 1px solid #515050;
+    font-size: 12px;
+    padding: 4px;
+    color: #000;
+    font-family: tahoma;
+}
+
+  
+.signature{
+  float: right;
+  padding:0px;
+  color: black;
+  bottom:50px;
+  left:0%;
+  position:fixed!important;
+  position:absolute;
+  width:620px;
+  top:expression((0-(footer.offsetHeight)+
+  (document.documentElement.clientHeight?
+  document.documentElement.clientHeight:
+  document.body.clientHeight)+(ignoreMe=document.documentElement.scrollTop?
+  document.documentElement.scrollTop:document.
+  body.scrollTop))+'px');
+  text-align:right;
+  visibility:visible;
+  font-size: 14px;
+  margin-right: 100px;
+  font-family: tahoma;
+}
+.provied{
+  float: left;
+  padding:0px;
+  color: black;
+  bottom:0px;
+  left:0%;
+  position:fixed!important;
+  position:absolute;
+  width:770px;
+  top:expression((0-(footer.offsetHeight)+
+  (document.documentElement.clientHeight?
+  document.documentElement.clientHeight:
+  document.body.clientHeight)+(ignoreMe=document.documentElement.scrollTop?
+  document.documentElement.scrollTop:document.
+  body.scrollTop))+'px');
+  text-align:right;
+  visibility:visible;
+  font-size: 14px;
+  font-family: tahoma;
+}
+.profile tr td{
+  /* background-color: #ddd; */
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+.profile tr th{
+  background-color: gray;
+}

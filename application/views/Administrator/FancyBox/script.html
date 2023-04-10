@@ -1,0 +1,108 @@
+
+
+<a class="linka fancybox fancybox.ajax" href="<?php echo base_url(); ?>e_Leftmenu/<?php echo $data->id; ?>" class="btn btn-warning" d ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a> 
+
+
+
+
+<!-- Script For  Fancy -->
+<script type="text/javascript" src="<?php echo base_url()?>libs/fancyBox/js/jquery.fancybox.js?v=2.1.5"></script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>libs/fancyBox/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $('.fancybox').fancybox({
+
+            padding: 0,
+
+                openEffect : 'elastic',
+
+                openSpeed  : 150,
+
+                closeEffect : 'elastic',
+
+                closeSpeed  : 150,
+
+                maxWidth    : "60%",
+
+                autoSize    : true,
+
+                autoScale   : true,
+
+                fitToView   : true,
+
+                helpers : {
+
+                    title : {
+
+                        type : 'inside'
+
+                    },
+
+                    overlay : {
+
+                        css : {
+
+                            'background' : 'rgba(0,0,0,0.3)'
+
+                        }
+
+                    }
+
+                }       
+
+            });
+
+            $('.fancyboxview').fancybox({
+
+            padding: 0,
+
+                openEffect : 'elastic',
+
+                openSpeed  : 150,
+
+
+
+                closeEffect : 'elastic',
+
+                closeSpeed  : 150,
+
+                maxWidth    : "95%",
+
+                autoSize    : true,
+
+                autoScale   : true,
+
+                fitToView   : true,
+
+
+
+                helpers : {
+
+                    title : {
+
+                        type : 'inside'
+
+                    },
+
+                    overlay : {
+
+                        css : {
+
+                            'background' : 'rgba(0,0,0,0.3)'
+
+                        }
+
+                    }
+
+                }       
+
+            });
+
+        });    
+
+</script>
+
